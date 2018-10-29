@@ -3,7 +3,7 @@
 function connect_db(){
     $connectionStatus=mysqli_connect("localhost","root","","game");
 	if(!$connectionStatus){
-		echo "Error to connecting database";
+		echo "Error to connecting database Please try again";
 		exit;
 	}
 	return $connectionStatus;
